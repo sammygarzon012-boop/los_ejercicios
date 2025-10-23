@@ -1,0 +1,13 @@
+# Calcular el precio total de un producto con IVA 
+
+  
+
+precio = float(input("Ingrese el precio del producto: ")) 
+
+iva = float(input("Ingrese el porcentaje de IVA (ejemplo 19 para 19%): ")) 
+
+  
+
+precio_total = precio + (precio * iva / 100) 
+
+  
